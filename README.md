@@ -87,13 +87,20 @@ Berdasarkan hasil evaluasi, Random Forest dipilih sebagai model terbaik karena m
 
 Performa:
 
-- Accuracy: 78.01%
-- Precision: 76.45%
+- Accuracy: 72.02%
+- Precision: 65.09%
 - Recall: 70.21%
 - F1 Score: 73.19%
 
 
 ## 🚀 Streamlit Application
+
+## 🌐 Deployment
+
+Aplikasi telah berhasil dilakukan deployment menggunakan Streamlit Cloud.
+
+Link aplikasi:
+https://spotify-popularity-prediction-mzu6nffyyax8qspnn9t9tr.streamlit.app/
 
 Aplikasi memiliki beberapa fitur:
 
@@ -134,9 +141,8 @@ Install library:
 ```bash
 pip install -r requirements.txt
 
-Jalankan aplikasi:
+Jalankan aplikasi: streamlit run app.py
 
-streamlit run app.py
 📁 Struktur Folder
 Spotify-ML-Project/
 
@@ -145,7 +151,10 @@ Spotify-ML-Project/
 │── scaler.pkl
 │── features.pkl
 │── requirements.txt
+│── runtime.txt
 │── README.md
+│── spotify-tracks-dataset-detailed.csv
+
 🛠️ Teknologi yang Digunakan
 Python
 Pandas
@@ -154,9 +163,8 @@ Scikit-Learn
 Matplotlib
 Seaborn
 Streamlit
+
 👨‍💻 Author
-
 Machine Learning Project
-
-
 Simpan.
+
