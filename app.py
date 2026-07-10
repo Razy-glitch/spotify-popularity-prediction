@@ -6,7 +6,7 @@ import seaborn as sns
 
 
 # Load model
-model = joblib.load("random_forest_model_compressed.pkl")
+model = joblib.load("random_forest_model.pkl")
 scaler = joblib.load("scaler.pkl")
 features = joblib.load("features.pkl")
 
